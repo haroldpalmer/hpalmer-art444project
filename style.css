@@ -1,13 +1,28 @@
 /* CSS GOES HERE */
 
 body {
+    
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: "Inter", sans-serif;
     vertical-align: baseline;
 }
+
+.about {
+    /* About Me Section */
+
+
+width: 1512px;
+height: 676px;
+left: -1px;
+top: 604px;
+
+}
+
+
+
 section {
     padding: 60px 40px;
 }
@@ -15,6 +30,7 @@ section {
 section:nth-child(even) {
     background-color: #f2f2f2;
 }
+
 
 .container {
     width: 100%;
@@ -28,7 +44,7 @@ nav ul {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    gap: 10px;
+    gap: 100px;
 }
 
 footer {
