@@ -8,6 +8,7 @@ body {
     font-size: 100%;
     font-family: "Inter", sans-serif;
     vertical-align: baseline;
+    background-color: aqua;
 }
 
 .about {
@@ -21,6 +22,33 @@ top: 604px;
 
 }
 
+/* Skills Section */
+.skills {
+    position: absolute;
+    width: 1513.04px;
+    height: 619.56px;
+    left: -1px;
+    top: 1728px;
+    }
+
+    .ski {
+        display: center;
+        list-style: none;
+        text-align-last: left;
+    }
+    
+
+
+    div.organizer {
+    flex-wrap: wrap;    
+    display:  flex;
+    }
+
+   .image {
+    width: 30%;
+    
+    
+   }
 
 
 section {
