@@ -26,7 +26,10 @@ width: 1512px;
 height: 676px;
 left: -1px;
 top: 604px;
+}
 
+div.about1 {
+    
 }
 
 .about_button {
@@ -50,7 +53,7 @@ top: 604px;
         text-align-last: left;
     }
     
-
+   
 
     div.organizer {
     flex-wrap: wrap;    
@@ -78,13 +81,8 @@ section:nth-child(even) {
     max-width: 960px;
     text-align: center;
     margin: 0 auto;
-    
-    /* About Me Section */
-
-
-
-
 }
+
 
 nav ul {
     list-style: none;
