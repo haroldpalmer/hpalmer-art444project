@@ -12,8 +12,23 @@ body {
     
 }
 
+div.main_nav {
+    width: 1565px;
+height: 300px;
+left: -1px;
+top: 604px;
+background-color: rgb(169, 170, 172);
+}
 
+div.design1 {}
 
+div.space {
+    width: 1565px;
+    height: 300px;
+    left: -1px;
+    top: 604px;
+    background-color: rgb(136, 18, 18);
+}
 
 .title {
     font-size: 50px;
@@ -23,14 +38,20 @@ h2 {
     font-size: 30px;
 }
 
-/* Background spheres  */
+div.logo {
+     width: 1512px;
+height: 100px;
+left: -1px;
+top: 604px;
+background-color: rgb(169, 170, 172);
+}
 
 
 
-
+/* About Me Section */
 
 .about {
-    /* About Me Section */
+    
 
 
 width: 1512px;
@@ -42,6 +63,8 @@ top: 604px;
 div.about1 {
     
 }
+
+
 
 .about_button {
     background-color: rgb(11, 182, 62);
