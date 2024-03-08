@@ -17,14 +17,17 @@ body {
     background-image: url('images/Design.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top left;
+    background-size: 500px;
+    
 }
 
 div.main_nav {
-    width: 1565px;
-height: 300px;
-left: -1px;
-top: 604px;
+width: 100%;
+height: 150px;
+display:flex;
+flex-flow:row;
+align-items:center;
 background-color: rgb(169, 170, 172);
 }
 
@@ -45,15 +48,6 @@ div.space {
 h2 {
     font-size: 30px;
 }
-
-div.logo {
-     width: 1512px;
-height: 100px;
-left: -1px;
-top: 604px;
-background-color: rgb(169, 170, 172);
-}
-
 
 
 /* About Me Section */
@@ -135,6 +129,8 @@ nav ul {
     flex-flow: row;
     justify-content: center;
     gap: 100px;
+    margin: 0;
+    background-image: url('images/hp_logo1.png');
 }
 
 footer {
