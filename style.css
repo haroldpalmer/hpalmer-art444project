@@ -10,6 +10,14 @@ body {
     vertical-align: baseline;
     background-color: aqua;
     
+    
+}
+
+#header {
+    background-image: url('images/Design.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 div.main_nav {
@@ -20,7 +28,7 @@ top: 604px;
 background-color: rgb(169, 170, 172);
 }
 
-div.design1 {}
+
 
 div.space {
     width: 1565px;
@@ -60,9 +68,6 @@ left: -1px;
 top: 604px;
 }
 
-div.about1 {
-    
-}
 
 
 
@@ -119,8 +124,8 @@ section:nth-child(even) {
 .container {
     width: 100%;
     max-width: 960px;
-    text-align: center;
-    margin: 0 auto;
+    text-align: left;
+    margin: 0% auto;
 }
 
 
