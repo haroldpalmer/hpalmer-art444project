@@ -306,7 +306,6 @@ footer {
     line-height: 0;
     transform: rotateY(180deg);
     background-color: #f2f2f2;
-    clip-path: calc(100% + 1.3px);
 }
 .custom-shape-divider-top-1710734698 svg {
     position: relative;
