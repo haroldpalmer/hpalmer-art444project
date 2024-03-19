@@ -28,8 +28,10 @@ body {
     display:none;
 }
 
+/* gradient circle */
+
 #grad1 {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(120px);
@@ -42,18 +44,45 @@ body {
     right:0;
     z-index: -3;
 
+  }
+
+/* gradient circle */
+
+  #grad2 {
+    height: 600px;
+    width: 100%;
+    background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
+    filter: blur(120px);
+    background-size: 80% 500px;
+    background-position-x: -1000px;
+    background-repeat: no-repeat;
+    overflow: visible;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: -3;
 
   }
 
-  .skill2 {
-    width:300px;
-    margin-right:auto;
+/* gradient circle */
+
+  #grad3 {
+    height: 600px;
+    width: 100%;
+    background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
+    filter: blur(120px);
+    background-size: 80% 500px;
+    background-position-x: 1000px;
+    background-repeat: no-repeat;
+    overflow: visible;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: -3;
+
   }
 
-  .row {
-    width:300px;
-    margin-left:auto;
-  }
+ 
 
 .radioGradient {
 
@@ -79,7 +108,7 @@ body {
     background-attachment: fixed;
     background-position: top left;
     background-size: 500px;
-    
+       
 }
 
 #header2 {
@@ -102,6 +131,7 @@ div.space {
    width: 100%;
     background-color: transparent;
     color: none;
+    
 }
 
 .title {
@@ -130,11 +160,37 @@ top: 604px;
     
   }
 
+  .about_button {
+    background-color: rgb(11, 182, 62);
+    border-radius: 10px;
+    height: 30px;
+}
+
+/* Skills Section */
+
 #skills {
     background-color: #f2f2f2;
     background-size: 100px 80px;
     background-repeat: no-repeat;
 }  
+
+.skills_button {
+    background-color: rgb(11, 182, 62);
+    border-radius: 10px;
+    height: 30px;
+}
+
+.skill2 {
+    width:300px;
+    margin-right:auto;
+  }
+
+  .row {
+    width:300px;
+    margin-left:auto;
+  }
+
+/* FAQS Section */
 
 #FAQ {
     background-color: #f2f2f2;
@@ -142,23 +198,20 @@ top: 604px;
     background-repeat: no-repeat;
 }
 
+/* Gallery Section */
+
 #gallery {
     background-color: aqua;
     background-size: 100px 80px;
     background-repeat: no-repeat;
 }
 
-.about_button {
-    background-color: rgb(11, 182, 62);
-    border-radius: 10px;
-    height: 30px;
-}
+div.organizer {
+    flex-wrap: wrap;    
+    display:  flex;
+    }
 
-.skills_button {
-    background-color: rgb(11, 182, 62);
-    border-radius: 10px;
-    height: 30px;
-}
+
 
 /* Skills Section */
 .skills {
@@ -177,10 +230,7 @@ top: 604px;
     
    
 
-    div.organizer {
-    flex-wrap: wrap;    
-    display:  flex;
-    }
+   
 
    .image {
     width: 30%;
@@ -222,6 +272,8 @@ footer {
     padding: 10px;
 }
 
+/* about dividers */
+
 .custom-shape-divider-bottom-1710735021 {
     position: relative;
     bottom: 0;
@@ -234,7 +286,7 @@ footer {
 
 .custom-shape-divider-bottom-1710735021 svg {
     position: relative;
-    display: block;
+    display: inline-block;
     width: calc(100% + 1.3px);
     height: 154px;
 }
@@ -243,7 +295,59 @@ footer {
     fill: #f2f2f2;
 }
 
+
+
 .custom-shape-divider-top-1710734698 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotateY(180deg);
+    background-color: #f2f2f2;
+    clip-path: calc(100% + 1.3px);
+}
+.custom-shape-divider-top-1710734698 svg {
+    position: relative;
+    display: inline-block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+   
+}
+
+.custom-shape-divider-top-1710734698 .shape-fill {
+    fill: aqua;
+    
+}
+
+/* skill dividers */
+
+.custom-shape-divider-bottom-1710819390 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background-color: #f2f2f2;
+    
+}
+
+.custom-shape-divider-bottom-1710819390 svg {
+    position: relative;
+    display: inline-block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1710819390 .shape-fill {
+    fill: aqua;
+}
+
+.custom-shape-divider-top-1710819519 {
     position: relative;
     top: 0;
     left: 0;
@@ -252,14 +356,14 @@ footer {
     line-height: 0;
     background-color: #f2f2f2;
 }
-.custom-shape-divider-top-1710734698 svg {
+
+.custom-shape-divider-top-1710819519 svg {
     position: relative;
-    display: block;
+    display: inline-block;
     width: calc(100% + 1.3px);
     height: 154px;
-    transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1710734698 .shape-fill {
+.custom-shape-divider-top-1710819519 .shape-fill {
     fill: aqua;
 }
