@@ -3,6 +3,10 @@
 /* TABLET VIEW */
 @media only screen and (max-width:768px) {
     
+    #main_nav {
+        display:none;
+    }
+
     .mobile-menu {
         display:block
     

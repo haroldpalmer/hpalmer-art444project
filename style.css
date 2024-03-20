@@ -17,8 +17,8 @@ body {
     height: 36px;
     background-color: grey;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 40px;
+    left: 40px;
     position: fixed;
     background-image: url(images/menu_FILL0_wght400_GRAD0_opsz24.png);
     background-repeat: no-repeat;
@@ -26,6 +26,33 @@ body {
     border-radius: 50%;
     z-index: 999;
     display:none;
+}
+
+.mobile-menu-popout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:80px 40px;
+    background-color: green;
+    z-index: 998;
+    padding-top: 120px;
+    height: 100%;
+    width: 150px;
+    padding-left: 40px;
+    transition:all 300ms;
+    display:none;
+}
+
+.mobile-menu-popout ul {
+    list-style: none;
+}
+
+.mobile-menu-popout ul li a {
+    margin-bottom: 10px;
+    list-style: none;
+    font-size: 18px;
+    color:white;
+    display: block;
 }
 
 /* gradient circle */
@@ -43,6 +70,7 @@ body {
     top:0;
     right:0;
     z-index: -3;
+    clip-path: circle(100%);
 
   }
 
@@ -61,7 +89,7 @@ body {
     top:0;
     right:0;
     z-index: -3;
-
+    clip-path: circle(100%);
   }
 
 /* gradient circle */
@@ -76,10 +104,11 @@ body {
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
+   
     top:0;
     right:0;
     z-index: -3;
-
+    clip-path: circle(100%);
   }
 
  
@@ -108,6 +137,7 @@ body {
     background-attachment: fixed;
     background-position: top left;
     background-size: 500px;
+    z-index: 3px;
        
 }
 
@@ -128,7 +158,9 @@ background-color: rgb(169, 170, 172);
 
 
 div.space {
-   width: 100%;
+    height: 400px;
+    width: 100%;
+    margin: 0;
     background-color: transparent;
     color: none;
     
@@ -255,6 +287,7 @@ section:nth-child(even) {
     margin: 0% auto;
 }
 
+/* footer */
 
 nav ul {
     list-style: none;
@@ -282,6 +315,7 @@ footer {
     overflow: hidden;
     line-height: 0;
     transform: rotate(360deg);
+    
 }
 
 .custom-shape-divider-bottom-1710735021 svg {
