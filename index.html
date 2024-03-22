@@ -12,7 +12,10 @@
 
 <body>
 
-  <div class="mobile-menu"></div>
+ 
+  <div class="mobile-menu" onclick="myMenu()" id="menuButton"></div>
+
+  <div class="mobile-menu-popout"></div>
 
 <!-- Main Navigation --> 
 <header id="main_nav">
@@ -32,7 +35,7 @@
     
   </div>
 </header>
-<div class="mobile-menu-popout">
+<div id="mymenu" class="mobile-menu-popout">
   <ul>
     <li><a class="smoothscroll" href="#header">Home</a></li>
     <li><a class="smoothscroll" href="#about">About</a></li>
@@ -55,8 +58,7 @@
 
   <div class="container"></div>
 
-  <div id="grad1"></div>
-
+  
   
   
 <!-- About Section --> 
@@ -65,6 +67,8 @@
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
 </div>
+
+<div id="grad1"></div>
 
 
 <section id="about">
@@ -244,6 +248,15 @@
       <p>Copywrite © 2024, All Rights Reserved</p>
   </div>
 </footer>
+
+<script>
+  function myMenu() {
+    document.getElementById('mymenu').classList.toggle('open');
+    document.getElementById('menuButton').classList.toggle('close');
+  }
+
+
+</script>
 
 <script src="script.js"></script>
 </body>

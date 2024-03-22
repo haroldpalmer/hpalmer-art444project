@@ -8,8 +8,11 @@
     }
 
     .mobile-menu {
-        display:block
+        display:block;
     
+    }
+    .mobile-menu-popout {
+        display:block;
     }
 }
 
