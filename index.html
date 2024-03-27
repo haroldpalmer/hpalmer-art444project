@@ -15,7 +15,7 @@
  
   <div class="mobile-menu" onclick="myMenu()" id="menuButton"></div>
 
-  <div class="mobile-menu-popout"></div>
+  
 
 <!-- Main Navigation --> 
 <header id="main_nav">
@@ -27,7 +27,7 @@
         <li><a class="smoothscroll" href="#about">About</a></li>
         <li><a class="smoothscroll" href="#skills">Skills</a></li>
         <li><a class="smoothscroll" href="#gallery">Gallery</a></li>
-        <li><a class="smoothscroll" href="#faqs">FAQs</a></li>
+        <li><a class="smoothscroll" href="#FAQ">FAQs</a></li>
         <li><a class="smoothscroll" href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -37,12 +37,12 @@
 </header>
 <div id="mymenu" class="mobile-menu-popout">
   <ul>
-    <li><a class="smoothscroll" href="#header">Home</a></li>
-    <li><a class="smoothscroll" href="#about">About</a></li>
-    <li><a class="smoothscroll" href="#skills">Skills</a></li>
-    <li><a class="smoothscroll" href="#gallery">Gallery</a></li>
-    <li><a class="smoothscroll" href="#faqs">FAQs</a></li>
-    <li><a class="smoothscroll" href="#contact">Contact</a></li>
+    <li><a onclick="closeMenu()" href="#header">Home</a></li>
+    <li><a onclick="closeMenu()" href="#about">About</a></li>
+    <li><a onclick="closeMenu()" href="#skills">Skills</a></li>
+    <li><a onclick="closeMenu()" href="#gallery">Gallery</a></li>
+    <li><a onclick="closeMenu()" href="#FAQ">FAQs</a></li>
+    <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
   </ul>
 </div>
 </body>
@@ -254,7 +254,10 @@
     document.getElementById('mymenu').classList.toggle('open');
     document.getElementById('menuButton').classList.toggle('close');
   }
-
+  function closeMenu() {
+    document.getElementById('mymenu').classList.remove('open');
+    document.getElementById('menuButton').classList.remove('close');
+  }
 
 </script>
 

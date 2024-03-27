@@ -67,12 +67,9 @@ html {
     background-image: url(images/close.svg);
 }
 
+
 /* gradient circle */
 
-#grad1 #grad2 #grad3 {
-    margin: 0;
-    padding: 0;
-}
 
 #grad1 {
     height: 600px;
@@ -150,6 +147,10 @@ html {
     z-index: -3;
 }
 
+#grad1 #grad2 #grad3 {
+    margin: 0;
+    padding: 0;
+}
 
 
 #header {
