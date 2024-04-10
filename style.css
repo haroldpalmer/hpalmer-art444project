@@ -327,6 +327,18 @@ footer {
     padding: 10px;
 }
 
+.button-primary {
+    background-color: rgb(11, 182, 62);
+    border-radius: 10px;
+    height: 30px;
+}
+
+.u-full-width {
+    background-color: rgb(11, 182, 62);
+    border-radius: 10px;
+    margin: .5%;
+}
+
 /* about dividers */
 
 .custom-shape-divider-bottom-1710735021 {

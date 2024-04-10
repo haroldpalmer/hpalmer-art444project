@@ -14,9 +14,17 @@
     .mobile-menu-popout {
         display:block;
     }
+
+    .image {
+        width:50%;
+    }
 }
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
   
+    .image {
+        width: 100%;
+    }
+
 }
