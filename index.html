@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Harold_Palmer's_Website</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
@@ -81,7 +82,7 @@
     </div>
   </div>
 </div>
-
+<button onclick="darkMode()">Dark Mode</button>
 </section>
 
 <div class="custom-shape-divider-bottom-1710735021">
@@ -221,6 +222,7 @@
   <div class="container">
 
 <!-- Contact Section -->  
+<div class="gallery">
 <section id="contact">
   <div class="container">
     <h2>Contact Me</h2>
@@ -247,9 +249,15 @@
     <div><img src="images/hp_logo1.png" class="image" alt="Work Two"/></div>
       <p>Copywrite © 2024, All Rights Reserved</p>
   </div>
+</div>
 </footer>
 
 <script>
+  function darkMode() {
+    document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
+    document.getElementsByClassName('main_nav')[0].classList.toggle('main_nav_dark_mode');
+    document.getElementById('about').classList.toggle('about_dark_mode');
+  }
   function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');
     document.getElementById('menuButton').classList.toggle('close');

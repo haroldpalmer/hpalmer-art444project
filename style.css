@@ -12,6 +12,13 @@ body {
     
 }
 
+.body-dark-mode {
+    background-color: #1E1E1E;
+    color:white;  
+}
+
+
+
 html {
     scroll-behavior:smooth;
 }
@@ -177,7 +184,14 @@ align-items:center;
 background-color: rgb(169, 170, 172);
 }
 
+.main_nav_dark_mode {
+    background-color: #000 !important;
+    color: white;
+}
 
+a {
+    color: white;
+}
 
 div.space {
     height: 400px;
@@ -218,6 +232,12 @@ top: 604px;
     background-color: rgb(11, 182, 62);
     border-radius: 10px;
     height: 30px;
+}
+
+.about_dark_mode {
+    background-color: black !important;
+    color: white;
+
 }
 
 /* Skills Section */
@@ -386,6 +406,10 @@ footer {
 .custom-shape-divider-top-1710734698 .shape-fill {
     fill: aqua;
     
+}
+
+.custom-shape-dark-mode {
+    fill:black;
 }
 
 /* skill dividers */
