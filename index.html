@@ -254,9 +254,19 @@
 
 <script>
   function darkMode() {
+    /*
+      const containerDark = document.querySelectorAll('.container');
+      
+      for (let i = 0; 1 < containerDark.length; i++) {
+        containerDark[i].classList.toggle('container-darkMode');
+      }
+    */  
+    
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
     document.getElementsByClassName('main_nav')[0].classList.toggle('main_nav_dark_mode');
     document.getElementById('about').classList.toggle('about_dark_mode');
+    document.getElementById('skills').classList.toggle('skills_dark_mode');
+    document.getElementById('FAQ').classList.toggle('FAQ_dark_mode');
   }
   function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');

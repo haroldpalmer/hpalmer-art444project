@@ -19,6 +19,7 @@ body {
 
 
 
+
 html {
     scroll-behavior:smooth;
 }
@@ -259,6 +260,11 @@ top: 604px;
     margin-right:auto;
   }
 
+.skills_dark_mode {
+    background-color: black !important;
+    color: white;
+}
+
   .row {
     width:300px;
     margin-left:auto;
@@ -270,6 +276,11 @@ top: 604px;
     background-color: #f2f2f2;
     background-size: 100px 80px;
     background-repeat: no-repeat;
+}
+
+.FAQ_dark_mode {
+    background-color: black !important;
+    color: white;
 }
 
 /* Gallery Section */
@@ -328,7 +339,10 @@ section:nth-child(even) {
     text-align: center;
     margin: 0% auto;
 }
-
+.container-darkMode {
+    background-color: #1E1E1E;
+    color:white;  
+}
 /* footer */
 
 nav ul {
