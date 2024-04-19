@@ -194,7 +194,7 @@ a {
     color: white;
 }
 
-div.space {
+.space {
     height: 400px;
     width: 100%;
     margin: 0;
@@ -375,27 +375,7 @@ footer {
 
 /* about dividers */
 
-.custom-shape-divider-bottom-1710735021 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(360deg);
-    
-}
 
-.custom-shape-divider-bottom-1710735021 svg {
-    position: relative;
-    display: inline-block;
-    width: calc(100% + 1.3px);
-    height: 154px;
-}
-
-.custom-shape-divider-bottom-1710735021 .shape-fill {
-    fill: #f2f2f2;
-}
 
 
 
@@ -422,11 +402,53 @@ footer {
     
 }
 
-.custom-shape-dark-mode {
-    fill:black;
+.custom-shape-divider-bottom-1710735021 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(360deg);
+    
 }
 
+.custom-shape-divider-bottom-1710735021 svg {
+    position: relative;
+    display: inline-block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-bottom-1710735021 .shape-fill {
+    fill: #f2f2f2;
+}
+
+
 /* skill dividers */
+
+
+
+.custom-shape-divider-top-1710819519 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    background-color: #f2f2f2;
+}
+
+.custom-shape-divider-top-1710819519 svg {
+    position: relative;
+    display: inline-block;
+    width: calc(100% + 1.3px);
+    height: 154px;
+}
+
+.custom-shape-divider-top-1710819519 .shape-fill {
+    fill: aqua;
+}
 
 .custom-shape-divider-bottom-1710819390 {
     position: relative;
@@ -452,23 +474,6 @@ footer {
     fill: aqua;
 }
 
-.custom-shape-divider-top-1710819519 {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    background-color: #f2f2f2;
-}
-
-.custom-shape-divider-top-1710819519 svg {
-    position: relative;
-    display: inline-block;
-    width: calc(100% + 1.3px);
-    height: 154px;
-}
-
-.custom-shape-divider-top-1710819519 .shape-fill {
-    fill: aqua;
+.custom-shape-dark-mode {
+    fill:black;
 }
