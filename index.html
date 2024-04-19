@@ -63,7 +63,7 @@
   
   
 <!-- About Section --> 
-<div class="custom-shape-divider-top-1710734698">
+<div class="custom-shape-divider-top-1710734698 custom-shape-divider">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
@@ -85,7 +85,7 @@
 <button onclick="darkMode()">Dark Mode</button>
 </section>
 
-<div class="custom-shape-divider-bottom-1710735021">
+<div class="custom-shape-divider-bottom-1710735021 custom-shape-divider">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
@@ -104,7 +104,7 @@
 
 <!-- Skills Section -->  
 
-<div class="custom-shape-divider-top-1710819519">
+<div class="custom-shape-divider-top-1710819519 custom-shape-divider">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
@@ -137,7 +137,7 @@
   
 </section>
 
-<div class="custom-shape-divider-bottom-1710819390">
+<div class="custom-shape-divider-bottom-1710819390 custom-shape-divider">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
@@ -156,7 +156,7 @@
 
 <div id="grad3"></div>
 
-<div class="custom-shape-divider-top-1710734698">
+<div class="custom-shape-divider-top-1710734698 custom-shape-divider">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
@@ -182,7 +182,7 @@
     </div>
 </section>
 
-<div class="custom-shape-divider-bottom-1710735021">
+<div class="custom-shape-divider-bottom-1710735021 custom-shape-divider">
   <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
   </svg>
@@ -254,19 +254,36 @@
 
 <script>
   function darkMode() {
-    /*
-      const containerDark = document.querySelectorAll('.container');
-      
-      for (let i = 0; 1 < containerDark.length; i++) {
-        containerDark[i].classList.toggle('container-darkMode');
-      }
-    */  
-    
+  
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
     document.getElementsByClassName('main_nav')[0].classList.toggle('main_nav_dark_mode');
     document.getElementById('about').classList.toggle('about_dark_mode');
     document.getElementById('skills').classList.toggle('skills_dark_mode');
     document.getElementById('FAQ').classList.toggle('FAQ_dark_mode');
+    document.getElementsByClassName('custom-shape-divider-top-1710819519')[0].classList.toggle('custom-shape-divider-top-1710819519-dark');
+    document.getElementsByClassName('custom-shape-divider-top-1710734698')[0].classList.toggle('custom-shape-divider-top-1710734698-dark');
+    document.getElementsByClassName('custom-shape-divider-bottom-1710735021')[0].classList.toggle('custom-shape-divider-bottom-1710735021-dark');
+    document.getElementsByClassName('custom-shape-divider-top-1710734698')[0].classList.toggle('custom-shape-divider-top-1710734698-dark2');
+
+
+    const darkLinks = document.querySelectorAll('.smoothscroll')
+      
+      for (let i = 0; 1 < darkLinks.length; i++) {
+        darkLinks[i].classList.toggle('dark_nav');
+      }
+
+      const darkSpacer = document.querySelectorAll('.custom-shape-divider')
+      
+      for (let i = 0; 1 < darkSpacer.length; i++) {
+        darkSpacer[i].classList.toggle('custom-shape-divider-dark');
+      }
+
+      const darkBack = document.querySelectorAll('.shape-fill')
+      
+      for (let i = 0; 1 < darkBack.length; i++) {
+        darkBack[i].classList.toggle('shape-fill-dark');
+      }
+
   }
   function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');

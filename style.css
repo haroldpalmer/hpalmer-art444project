@@ -176,13 +176,13 @@ html {
     position:relative;
 }
 
-div.main_nav {
+.main_nav {
 width: 100%;
 height: 150px;
 display:flex;
 flex-flow:row;
 align-items:center;
-background-color: rgb(169, 170, 172);
+background-color: #f2f2f2;
 }
 
 .main_nav_dark_mode {
@@ -190,7 +190,11 @@ background-color: rgb(169, 170, 172);
     color: white;
 }
 
-a {
+.smoothscroll {
+    color: black;
+}
+
+.dark_nav {
     color: white;
 }
 
@@ -379,7 +383,7 @@ footer {
 
 
 
-.custom-shape-divider-top-1710734698 {
+.custom-shape-divider-top-1710734698  {
     position: relative;
     top: 0;
     left: 0;
@@ -401,6 +405,15 @@ footer {
     fill: aqua;
     
 }
+
+.custom-shape-divider-top-1710734698-dark {
+    background-color: black;
+    fill: #1E1E1E !important;
+}
+
+
+    
+
 
 .custom-shape-divider-bottom-1710735021 {
     position: relative;
@@ -424,6 +437,9 @@ footer {
     fill: #f2f2f2;
 }
 
+.custom-shape-divider-bottom-1710735021-dark {
+    fill: #1E1E1E;
+}
 
 /* skill dividers */
 
@@ -474,6 +490,14 @@ footer {
     fill: aqua;
 }
 
-.custom-shape-dark-mode {
-    fill:black;
+.custom-shape-divider-dark {
+    background-color:black !important;
 }
+.shape-fill-dark {
+    fill:  #1E1E1E !important;
+}
+
+.custom-shape-divider-top-1710819519-dark {
+    background-color: black;
+}
+
