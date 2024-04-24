@@ -80,20 +80,21 @@ html {
 
 
 #grad1 {
-    height: 600px;
+    height: 0%;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
-    filter: blur(120px);
+    filter: blur(100px);
     background-size: 80% 500px;
     background-position-x: 1000px;
     background-position-y: 300px;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
-    top:0;
+    top: 0;
     right:0;
-    z-index: -3;
+    z-index: -1;
     clip-path: circle(100%);
+    margin: 0%;
     
 
   }
@@ -101,29 +102,29 @@ html {
 /* gradient circle */
 
   #grad2 {
-    height: 600px;
+    height: 0%;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
-    filter: blur(120px);
+    filter: blur(100px);
     background-size: 80% 500px;
     background-position-x: -300px;
     background-position-y: 600px;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
-    top:0;
+    top: 0;
     right:0;
-    z-index: -3;
+    z-index: -1;
     clip-path: circle(100%);
   }
 
 /* gradient circle */
 
   #grad3 {
-    height: 600px;
+    height: 0px;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
-    filter: blur(120px);
+    filter: blur(100px);
     background-size: 80% 500px;
     background-position-x: 100px;
     background-position: 1000px;
@@ -131,29 +132,15 @@ html {
     overflow: visible;
     position: absolute;
    
-    top:0;
+    top: 0;
     right:0;
-    z-index: -3;
+    z-index: -1;
     clip-path: circle(100%);
   }
 
  
 
-.radioGradient {
 
-    height: 500px;
-    width: 100%;
-    background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
-    filter: blur(120px);
-    background-size: 80% 500px;
-    background-position-x: 1000px;
-    background-repeat: no-repeat;
-    overflow: visible;
-    position: absolute;
-    top:0;
-    right:0;
-    z-index: -3;
-}
 
 #grad1 #grad2 #grad3 {
     margin: 0;
@@ -277,6 +264,11 @@ top: 604px;
 /* FAQS Section */
 
 .faq-toggle {
+    height: 60px;
+    overflow: hidden;
+}
+
+.faq-open {
     height: auto;
 }
 
@@ -396,17 +388,19 @@ footer {
     line-height: 0;
     transform: rotateY(180deg);
     background-color: #f2f2f2;
+    z-index: 1;
 }
 .custom-shape-divider-top-1710734698 svg {
     position: relative;
     display: inline-block;
     width: calc(100% + 1.3px);
     height: 154px;
-   
+    z-index: 1;
 }
 
 .custom-shape-divider-top-1710734698 .shape-fill {
     fill: aqua;
+    z-index: 1;
     
 }
 
