@@ -276,6 +276,10 @@ top: 604px;
 
 /* FAQS Section */
 
+.faq-toggle {
+    height: auto;
+}
+
 #FAQ {
     background-color: #f2f2f2;
     background-size: 100px 80px;

@@ -164,21 +164,30 @@
 
 <section id="FAQ">
     <div class="container">
+
+      <div class="faq?">
       <h2>Frequent Asked Questions</h2>
       <h3>When will you be graduating from SDSU?</h3>
         <p>I will graduate from SDSU on May 2024.</p>
+      </div>
         
+      <div class="faq?">
       <h3>What do you have planned for after graduation?</h3>
        <p>I am gong to apply for jobs related to my field in Graphic Design.  
         My second choice is to become a freelancer and create content that I want to create</p> 
-       
+      </div>
+
+       <div class="faq?">
       <h3>What was your favorite class you took at SDSU?</h3> 
         <p>I have a lot of favorite classes so it is hard to choose one to be the favorite.</p>
-       
+       </div>
+
+       <div class="faq?">
        <h3>What work are you most proud producing at SDSU?</h3> 
        <p>The website that I created in Web-flow, the branding guidelines book, and
         a new project that I am working on in Adobe Animate.</p>
-        
+      </div>
+      
     </div>
 </section>
 
@@ -293,6 +302,14 @@
     document.getElementById('mymenu').classList.remove('open');
     document.getElementById('menuButton').classList.remove('close');
   }
+
+    const faqToggle = document.querySelectorAll('.faq-toggle')
+
+    for (let i = 0; 1 < faqToggle.length; i++) {
+      faqToggle[i].addEventListener("click", function(){ this.classList.toggle('faq') });
+    }
+
+
 
 </script>
 
