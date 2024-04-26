@@ -80,17 +80,17 @@ html {
 
 
 #grad1 {
-    height: 100%;
+    height: 1000px;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(100px);
-    background-size: 80% 500px;
+    background-size: 100% 900px;
     background-position-x: 700px;
     background-position-y: 100%;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
-    top: 0;
+    top: 300px;
     right:0;
     z-index: -1;
     clip-path: circle(100%);
@@ -106,13 +106,14 @@ html {
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(100px);
-    background-size: 80% 500px;
-    background-position-x: -200px;
+    background-size: 100% 1000px;
+    background-position-x: -500px;
     background-position-y: 100%;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
-    top: 1000px;
+    top: 1300px;
+    left: 0;
     right:0;
     z-index: -1;
     clip-path: circle(100%);
@@ -125,13 +126,13 @@ html {
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(100px);
-    background-size: 80% 500px;
-    background-position-x: 700px;
+    background-size: 100% 1000px;
+    background-position-x: 500px;
     background-position-y: 100%;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
-    top: 2000px;
+    top: 2400px;
    
     
     right:0;
@@ -388,8 +389,9 @@ footer {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotateY(180deg);
-    background-color: #f2f2f2;
+    transform: rotate(360deg);
+    transform: rotateX(180deg);
+    
     z-index: 1;
 }
 .custom-shape-divider-top-1710734698 svg {
@@ -401,7 +403,7 @@ footer {
 }
 
 .custom-shape-divider-top-1710734698 .shape-fill {
-    fill: aqua;
+    fill: #f2f2f2;
     z-index: 1;
     
 }
@@ -452,7 +454,8 @@ footer {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    background-color: #f2f2f2;
+    transform: rotate(180deg);
+    
 }
 
 .custom-shape-divider-top-1710819519 svg {
@@ -463,7 +466,7 @@ footer {
 }
 
 .custom-shape-divider-top-1710819519 .shape-fill {
-    fill: aqua;
+    fill: #f2f2f2;
 }
 
 .custom-shape-divider-bottom-1710819390 {
@@ -473,8 +476,8 @@ footer {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
-    background-color: #f2f2f2;
+    transform: rotate(360deg);
+    
     
 }
 
@@ -487,7 +490,7 @@ footer {
 }
 
 .custom-shape-divider-bottom-1710819390 .shape-fill {
-    fill: aqua;
+    fill: #f2f2f2;
 }
 
 .custom-shape-divider-dark {
