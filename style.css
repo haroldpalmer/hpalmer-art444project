@@ -80,19 +80,19 @@ html {
 
 
 #grad1 {
-    height: 600px;
+    height: 100%;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(100px);
     background-size: 80% 500px;
-    background-position-x: 1000px;
-    background-position-y: 300px;
+    background-position-x: 700px;
+    background-position-y: 100%;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
     top: 0;
     right:0;
-    z-index: 1;
+    z-index: -1;
     clip-path: circle(100%);
     margin: 0%;
     
@@ -102,13 +102,13 @@ html {
 /* gradient circle */
 
   #grad2 {
-    height: 600px;
+    height: 100%;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(100px);
     background-size: 80% 500px;
-    background-position-x: -300px;
-    
+    background-position-x: -200px;
+    background-position-y: 100%;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
@@ -121,18 +121,19 @@ html {
 /* gradient circle */
 
   #grad3 {
-    height: 0px;
+    height: 100%;
     width: 100%;
     background-image: radial-gradient(yellow,rgb(217, 217, 78), aqua);
     filter: blur(100px);
     background-size: 80% 500px;
-    background-position-x: 100px;
-    background-position: 1000px;
+    background-position-x: 700px;
+    background-position-y: 100%;
     background-repeat: no-repeat;
     overflow: visible;
     position: absolute;
+    top: 2000px;
    
-    top: 0;
+    
     right:0;
     z-index: -1;
     clip-path: circle(100%);
