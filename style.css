@@ -404,7 +404,7 @@ footer {
 
 .custom-shape-divider-top-1710734698 .shape-fill {
     fill: #f2f2f2;
-    z-index: 1;
+   
     
 }
 
@@ -504,5 +504,5 @@ footer {
 }
 
 .custom-shape-divider-bottom-1710819390-dark3 {
-    fill: black;
+    fill: black !important;
 }
