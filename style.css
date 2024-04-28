@@ -409,7 +409,6 @@ footer {
 }
 
 .custom-shape-divider-top-1710734698-dark {
-    background-color: black;
     fill: #1E1E1E !important;
 }
 
@@ -501,6 +500,9 @@ footer {
 }
 
 .custom-shape-divider-top-1710819519-dark {
-    background-color: black;
+   fill: black;
 }
 
+.custom-shape-divider-bottom-1710819390-dark3 {
+    fill: black;
+}
