@@ -50,11 +50,12 @@
 
 <!--Experiment Section-->
 <!-- Main Header --> 
-  <div class="space">
+<div class="space">
     <section id="header" class="header">
       <h1 class="title">Welcome to Harold Palmer's Website</h1>
       <h2>Portfolio</h2>
     </section>
+  </div>
   </div>
 
   <div class="container"></div>
@@ -82,7 +83,11 @@
     </div>
   </div>
 </div>
+
+ <!-- darkmode button -->
+
 <button onclick="darkMode()">Dark Mode</button>
+
 </section>
 
 <div class="custom-shape-divider-bottom-1710735021 custom-shape-divider">
@@ -269,30 +274,17 @@
     document.getElementById('about').classList.toggle('about_dark_mode');
     document.getElementById('skills').classList.toggle('skills_dark_mode');
     document.getElementById('FAQ').classList.toggle('FAQ_dark_mode');
-    document.getElementsByClassName('custom-shape-divider-top-1710819519')[0].classList.toggle('custom-shape-divider-top-1710819519-dark');
-    document.getElementsByClassName('custom-shape-divider-top-1710734698 .shape-fill')[0].classList.toggle('custom-shape-divider-top-1710734698-dark');
-    document.getElementsByClassName('custom-shape-divider-bottom-1710735021')[0].classList.toggle('custom-shape-divider-bottom-1710735021-dark');
-    document.getElementsByClassName('custom-shape-divider-top-1710734698')[0].classList.toggle('custom-shape-divider-top-1710734698-dark2');
-    document.getElementsByClassName('custom-shape-divider-bottom-1710819390')[0].classList.toggle('custom-shape-divider-bottom-1710819390-dark3');
-
-
+    document.getElementsByTagName('path')[0].classList.toggle('shape-fill-dark');
+    document.getElementsByTagName('path')[1].classList.toggle('shape-fill-dark');
+    document.getElementsByTagName('path')[2].classList.toggle('shape-fill-dark');
+    document.getElementsByTagName('path')[3].classList.toggle('shape-fill-dark');
+    document.getElementsByTagName('path')[4].classList.toggle('shape-fill-dark');
+    document.getElementsByTagName('path')[5].classList.toggle('shape-fill-dark');
     
     const darkLinks = document.querySelectorAll('.smoothscroll')
       
       for (let i = 0; 1 < darkLinks.length; i++) {
         darkLinks[i].classList.toggle('dark_nav');
-      }
-
-      const darkSpacer = document.querySelectorAll('.custom-shape-divider')
-      
-      for (let i = 0; 1 < darkSpacer.length; i++) {
-        darkSpacer[i].classList.toggle('custom-shape-divider-dark');
-      }
-
-      const darkBack = document.querySelectorAll('.shape-fill')
-      
-      for (let i = 0; 1 < darkBack.length; i++) {
-        darkBack[i].classList.toggle('shape-fill-dark');
       }
 
   }

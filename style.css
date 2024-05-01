@@ -150,7 +150,7 @@ html {
 }
 
 
-#header {
+.space {
     background-image: url('images/Design.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -467,6 +467,9 @@ footer {
 .custom-shape-divider-top-1710819519 .shape-fill {
     fill: #f2f2f2;
 }
+.shape-fill-dark {
+    fill: black !important;
+ }
 
 .custom-shape-divider-bottom-1710819390 {
     position: relative;
@@ -495,13 +498,8 @@ footer {
 .custom-shape-divider-dark {
     background-color:black !important;
 }
-.shape-fill-dark {
-    fill:  #1E1E1E !important;
-}
 
-.custom-shape-divider-top-1710819519-dark {
-   fill: black;
-}
+
 
 .custom-shape-divider-bottom-1710819390-dark3 {
     fill: black !important;
