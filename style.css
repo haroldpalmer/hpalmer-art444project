@@ -299,7 +299,9 @@ div.organizer {
     display:  flex;
     }
 
-
+#gallery-dark {
+    background-color: #1E1E1E !important;
+}
 
 /* Skills Section */
 .skills {
