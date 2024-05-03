@@ -278,6 +278,7 @@ top: 604px;
 .faq-toggle {
     height: 60px;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .faq-open {
