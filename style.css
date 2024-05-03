@@ -259,6 +259,8 @@ top: 604px;
     color: white;
 }
 
+
+
   .row {
     width:300px;
     margin-left:auto;
@@ -299,7 +301,7 @@ div.organizer {
     display:  flex;
     }
 
-#gallery-dark {
+.gallery-dark {
     background-color: #1E1E1E !important;
 }
 
